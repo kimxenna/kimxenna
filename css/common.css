@@ -12,6 +12,7 @@
 body,h1,h2,h3,p,ul{margin: 0; padding: 0;}
 li{list-style: none;}
 a{text-decoration: none; display: block;}
+body:hover{cursor: url(../img/curser.png) 32 32, auto;}
 /* BGM부분 */
 #bgm{
     position: absolute;
@@ -278,11 +279,18 @@ iframe{
         background-size: cover;
         background-position: center;
     }
+    #bgm{
+        width: 100px;
+    }
+    
 }
 /* 모바일버전 450이하 */
 @media screen and (max-width:450px) {
     .photos{
         width: 35%;
+    }
+    #bgm{
+        width: 70px;
     }
     
 }
