@@ -81,10 +81,10 @@ section>h1{
 
 /* 배경 */
 body>section:nth-of-type(odd){
-    background-image: url(/img/구름.png);
+    background-image: url(../img/구름.png);
 }
 body>section:nth-of-type(even){
-    background-image: url(/img/왕구름.png);
+    background-image: url(../img/왕구름.png);
 }
 .photos{
     width: 15%;
@@ -143,64 +143,64 @@ body>section:nth-of-type(even){
     margin-top: 8%;
 }
 /* 1월사진 */
-#J1image1{background-image: url(/img/1월/photo_1.jpg);}
-#J1image2{background-image: url(/img/1월/photo_2.jpg);}
-#J1image3{background-image: url(/img/1월/phto_3.jpg);}
+#J1image1{background-image: url(../img/1월/photo_1.jpg);}
+#J1image2{background-image: url(../img/1월/photo_2.jpg);}
+#J1image3{background-image: url(../img/1월/phto_3.jpg);}
 
 /* 2월사진 */
-#F2image1{background-image: url(/img/2월/photo_1.jpg);}
-#F2image2{background-image: url(/img/2월/photo_2.jpg);}
-#F2image3{background-image: url(/img/2월/photo_3.jpeg);}
+#F2image1{background-image: url(../img/2월/photo_1.jpg);}
+#F2image2{background-image: url(../img/2월/photo_2.jpg);}
+#F2image3{background-image: url(../img/2월/photo_3.jpeg);}
 
 /* 3월사진 */
-#M3image1{background-image: url(/img/3월/photo_1.jpg);}
-#M3image2{background-image: url(/img/3월/photo_3.jpg);}
-#M3image3{background-image: url(/img/3월/photo_2.jpg);}
+#M3image1{background-image: url(../img/3월/photo_1.jpg);}
+#M3image2{background-image: url(../img/3월/photo_3.jpg);}
+#M3image3{background-image: url(../img/3월/photo_2.jpg);}
 
 /* 4월사진 */
-#A4image1{background-image: url(/img/4월/photo_1.jpg);}
-#A4image2{background-image: url(/img/4월/photo_2.jpg);}
-#A4image3{background-image: url(/img/4월/photo_3.jpg);}
+#A4image1{background-image: url(../img/4월/photo_1.jpg);}
+#A4image2{background-image: url(../img/4월/photo_2.jpg);}
+#A4image3{background-image: url(../img/4월/photo_3.jpg);}
 
 /* 5월사진 */
-#M5image1{background-image: url(/img/5월/photo_1.jpg);}
-#M5image2{background-image: url(/img/5월/photo_2.jpg);}
-#M5image3{background-image: url(/img/5월/photo_3.jpg);}
+#M5image1{background-image: url(../img/5월/photo_1.jpg);}
+#M5image2{background-image: url(../img/5월/photo_2.jpg);}
+#M5image3{background-image: url(../img/5월/photo_3.jpg);}
 
 /* 6월사진 */
-#J6image1{background-image: url(/img/6월/photo_1.jpg);}
-#J6image2{background-image: url(/img/6월/photo_2.jpg);}
-#J6image3{background-image: url(/img/6월/photo_3.jpg);}
+#J6image1{background-image: url(../img/6월/photo_1.jpg);}
+#J6image2{background-image: url(../img/6월/photo_2.jpg);}
+#J6image3{background-image: url(../img/6월/photo_3.jpg);}
 
 /* 7월사진 */
-#J7image1{background-image: url(/img/7월/photo_1.jpg);}
-#J7image2{background-image: url(/img/7월/photo_2.jpg.jpg);}
-#J7image3{background-image: url(/img/7월/photo_3.jpg.jpg);}
+#J7image1{background-image: url(../img/7월/photo_1.jpg);}
+#J7image2{background-image: url(../img/7월/photo_2.jpg.jpg);}
+#J7image3{background-image: url(../img/7월/photo_3.jpg.jpg);}
 
 /* 8월사진 */
-#A8image1{background-image: url(/img/8월/photo_1.jpg);}
-#A8image2{background-image: url(/img/8월/photo_2.jpeg);}
-#A8image3{background-image: url(/img/8월/photo_3.jpg);}
+#A8image1{background-image: url(../img/8월/photo_1.jpg);}
+#A8image2{background-image: url(../img/8월/photo_2.jpeg);}
+#A8image3{background-image: url(../img/8월/photo_3.jpg);}
 
 /* 9월사진 */
-#S9image1{background-image: url(/img/9월/photo_1.jpg);}
-#S9image2{background-image: url(/img/9월/photo_2.jpg);}
-#S9image3{background-image: url(/img/9월/photo_3.jpg);}
+#S9image1{background-image: url(../img/9월/photo_1.jpg);}
+#S9image2{background-image: url(../img/9월/photo_2.jpg);}
+#S9image3{background-image: url(../img/9월/photo_3.jpg);}
 
 /* 10월사진 */
-#O10image1{background-image: url(/img/10월/photo_1.jpeg);}
-#O10image2{background-image: url(/img/10월/photo_2.jpg);}
-#O10image3{background-image: url(/img/10월/photo_3.jpg);}
+#O10image1{background-image: url(../img/10월/photo_1.jpeg);}
+#O10image2{background-image: url(../img/10월/photo_2.jpg);}
+#O10image3{background-image: url(../img/10월/photo_3.jpg);}
 
 /* 11월사진 */
-#N11image1{background-image: url(/img/11월/photo_1.jpg);}
-#N11image2{background-image: url(/img/11월/photo_2.jpg);}
-#N11image3{background-image: url(/img/11월/photo_3.jpg);}
+#N11image1{background-image: url(../img/11월/photo_1.jpg);}
+#N11image2{background-image: url(../img/11월/photo_2.jpg);}
+#N11image3{background-image: url(../img/11월/photo_3.jpg);}
 
 /* 12월사진 */
-#D12image1{background-image: url(/img/12월/photo_1.jpg);}
-#D12image2{background-image: url(/img/12월/photo_2.jpg);}
-#D12image3{background-image: url(/img/12월/photo_3.jpg);}
+#D12image1{background-image: url(../img/12월/photo_1.jpg);}
+#D12image2{background-image: url(../img/12월/photo_2.jpg);}
+#D12image3{background-image: url(../img/12월/photo_3.jpg);}
 
 
 /* 사진설명 */
