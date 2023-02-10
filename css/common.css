@@ -19,7 +19,7 @@ body:hover{cursor: url(../img/curser.png) 32 32, auto;}
     width: 200px;
     height: 20px;
     right: 0;
-    top: 20px;
+    top: 28px;
 }
 /* 헤더부분 */
 #header{
@@ -252,6 +252,14 @@ iframe{
     font-size: 2%;
     font-weight: 500;
 }
+/* button{
+    width: 10%;
+    height: 3%;
+    font-size: 0.5vw;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+} */
 
 /* 내비게이션 메뉴 */
 #menu{
@@ -262,8 +270,8 @@ iframe{
     z-index: 1;
 }
 #menu>img{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
 }
 
 /* 모바일버전 600이하 */
@@ -282,6 +290,9 @@ iframe{
     }
     #bgm{
         width: 100px;
+    }
+    .date{
+        font-size: large;
     }
     
 }

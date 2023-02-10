@@ -2,6 +2,10 @@ let a = $(window).width()
 let header = true;
 abc(a)
 
+let b = $(window).width()
+let button = true;
+bnt(b)
+
 
 
 // 휠 이벤트
@@ -9,45 +13,45 @@ window.addEventListener('load',function(){
     this.setTimeout(function(){
         this.scrollTo(0, 0)
     },10)
-    })
-    let num=0;
-    let state=1;
-    function scrolling(e) {
-        if ( e.wheelDelta < 0 &&state==1 ) {
-            state=0;
-            num++;
-            if(num >11){
-                num=11;
-                state=1;
+})
+let num=0;
+let state=1;
+function scrolling(e) {
+  if ( e.wheelDelta < 0 &&state==1 ) {
+      state=0;
+      num++;
+      if(num >11){
+        num=11;
+        state=1;
     
-            }else{
-            $("html, body").stop()
+      }else{
+        $("html, body").stop()
                         .animate({ scrollTop: $('section:eq('+ num +')')
                         .position().top },2000,'easeInOutQuint',function(){
                             state=1
-                        });
-                    }
+        });
+      }
     
-        }
-        else if ( e.wheelDelta > 0 &&state==1 ){
-            state=0;
-            num--;
-            if(num <0){
-                num=0;
-                state=1;
+  }
+  else if ( e.wheelDelta > 0 &&state==1 ){
+    state=0;
+    num--;
+    if(num <0){
+      num=0;
+      state=1;
     
-            }else{
-            $("html, body").stop()
+    }else{
+      $("html, body").stop()
                         .animate({ scrollTop: $('section:eq('+ num +')')
                         .position().top },1000,'easeInOutQuint',function(){
                             state=1
                         });
-                    }
-                    
-        }
-        $("#gnb li").removeClass('on');
-        $("#gnb li:eq("+ num +")").addClass('on');
     }
+                    
+  }
+  $("#gnb li").removeClass('on');
+  $("#gnb li:eq("+ num +")").addClass('on');
+}
     
     document.addEventListener('wheel', function(e){
         e.preventDefault();
@@ -102,5 +106,28 @@ $('#menu').on('click', function(e){
   $('#header').slideToggle();
 })
 
+//아래버튼이 600이하일때 나타나게
+$(window).on("resize",function(e){
+  let window = $(this).width()
+  bnt(window);
+}) 
+function bnt(window){
+  if(window <= 600 && button==true){
+    button = false;
+    $("button").show();
+  // 아래버튼이 600이상일때 사라지게
+  }else if(window >600){
+    button = true;
+    $("button").hide();
+  }
+} 
+//다음버튼
+
+
+	// $('button').click(function() {
+
+		
+
+	// 	});
 
 
